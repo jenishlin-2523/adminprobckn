@@ -1,7 +1,9 @@
 name = "admin-panel"
-pages_build_output_dir = ".vercel/output/static"
 compatibility_date = "2024-03-20"
 compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".vercel/output/static"
 
 [build]
 command = "npx @cloudflare/next-on-pages"
